@@ -1,3 +1,7 @@
+html {
+  width: 100vw;
+}
+
 body {
     background-color: #405f6b;
     font-family: Arial;
