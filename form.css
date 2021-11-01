@@ -1,0 +1,69 @@
+body {
+    background-color: #405f6b;
+    font-family: Arial;
+  }
+  
+  header {
+    text-align: center;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: fit-content;
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0px 3px 6px black;
+    border-radius: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  input, textarea {
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  #number {
+    width: 100px;
+  }
+
+  #number, #email, #name, textarea, #dropdown {
+    margin-top: 10px;
+    height: 30px;
+  }
+
+  #dropdown {
+    width: 100%;
+  }
+
+  
+  
+  textarea {
+    height: 60px;
+  }
+
+  #submit {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 10px 30px;
+    background-color: #405f6b;
+    box-shadow: 0px 2px 5px black;
+    color: white;
+    font-weight: bold;
+  }
+
+  .input-group {
+    padding: 10px 20px;
+  }

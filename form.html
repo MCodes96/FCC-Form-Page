@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FCC Survey Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  
+  
+  
+  <body>
+    <header>
+      <h1 id="title">FCC Project Form</h1>
+      <h2>A demo survey</h2>
+      <p id="description">Thank you for visiting this demo survey!</p>
+    </header>
+
+    <main>
+      <form id="survey-form">
+        <div class="input-group">
+          <label id="name-label" for="name">Name</label><br>
+          <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+        </div>
+
+        <div class="input-group">
+          <label id="email-label" for="email">E-mail address</label><br>
+          <input type="email" id="email" name="email" placeholder="Your E-mail" required><br><br>
+        </div>
+
+        <div class="input-group">
+          <label id="number-label" for="number">Number</label><br>
+          <input type="number" id="number" name="number" placeholder="#" min="0" max="999"><br><br>
+        </div>
+
+        <div class="input-group">
+          <label id="dropdown-label" for="dropdown">Dropdown</label><br>
+          <select name="dropdown" id="dropdown">
+            <option>Yes</option>
+            <option>No</option>
+          </select><br><br>
+        </div>
+
+        <div class="input-group">
+          <label id="radio-label" for="radio">Choice</label><br>
+          <label for="good" style="font-size: 12px;">Good</label>
+          <input type="radio" name="choice" id="good" value="good">
+          <label for="bad" style="font-size: 12px;">Bad</label>
+          <input type="radio" name="choice" id="bad" value="bad"><br><br>
+        </div>
+
+        <div class="input-group">
+          <label for="checkboxes">Checkboxes</label><br>
+          <label for="pizza" style="font-size: 12px;">Pizza</label>
+          <input type="checkbox" id="pizza" name="pizza" value="pizza">
+          <label for="pasta" style="font-size: 12px;">Pasta</label>
+          <input type="checkbox" id="pasta" name="pasta" value="pasta"><br><br>
+        </div>
+
+        <div class="input-group">
+          <label for="comments">Comments</label><br>
+          <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br><br>
+        </div>
+
+        <input type="submit" id="submit" name="submit">
+        
+      </form>
+  </body>
+  
+</html>
