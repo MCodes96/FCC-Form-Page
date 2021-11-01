@@ -88,3 +88,7 @@ body {
       max-width: 80%;
     }
   }
+  
+  html {
+    font-size: 130%;
+  }
