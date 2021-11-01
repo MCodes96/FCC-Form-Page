@@ -51,6 +51,11 @@ body {
     height: 60px;
   }
 
+  #pizza, #pasta {
+    justify-self:flex-start;
+    align-self: flex-start;
+  }
+
   #submit {
     display: block;
     margin: auto;
