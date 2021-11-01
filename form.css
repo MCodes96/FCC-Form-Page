@@ -79,7 +79,7 @@ body {
     width: auto;
   }
 
-  @media screen and (max-width: 900px) and (orientation: portait) {
+  @media screen and (orientation: portait) {
     form {
       max-width: 80%;
     }
