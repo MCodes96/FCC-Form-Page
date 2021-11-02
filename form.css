@@ -5,6 +5,7 @@ html {
 body {
     background-color: #405f6b;
     font-family: Arial;
+    width: 100vw;
   }
   
   header {
@@ -85,10 +86,11 @@ body {
 
   @media screen and (max-width: 800px) {
     form {
-      max-width: 80%;
+      max-width: 80vw;
+      width: 80vw;
     }
-  }
-  
-  html {
-    font-size: 130%;
+
+    html {
+      font-size: 130%;
+    }
   }
