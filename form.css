@@ -93,4 +93,8 @@ body {
     html, form, input, label {
       font-size: 120%;
     }
+
+    #number, #email, #name, textarea, #dropdown {
+      height: 40px;
+    }
   }
